@@ -13,6 +13,8 @@
 		00E90C221C89733400B46A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E90C201C89733400B46A3F /* Main.storyboard */; };
 		00E90C241C89733400B46A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E90C231C89733400B46A3F /* Assets.xcassets */; };
 		00E90C271C89733400B46A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E90C251C89733400B46A3F /* LaunchScreen.storyboard */; };
+		00E90C2F1C8978A900B46A3F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E90C2E1C8978A900B46A3F /* CoreMotion.framework */; };
+		00E90C331C89899400B46A3F /* ca8dac08f8ef24da0537eb79a7ec72e2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E90C321C89899400B46A3F /* ca8dac08f8ef24da0537eb79a7ec72e2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		00E90C231C89733400B46A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00E90C261C89733400B46A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00E90C281C89733400B46A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E90C2E1C8978A900B46A3F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		00E90C321C89899400B46A3F /* ca8dac08f8ef24da0537eb79a7ec72e2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ca8dac08f8ef24da0537eb79a7ec72e2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E90C2F1C8978A900B46A3F /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 		00E90C0B1C89733400B46A3F = {
 			isa = PBXGroup;
 			children = (
+				00E90C2E1C8978A900B46A3F /* CoreMotion.framework */,
 				00E90C161C89733400B46A3F /* CCPCoreMotion */,
 				00E90C151C89733400B46A3F /* Products */,
 			);
@@ -63,6 +69,7 @@
 				00E90C1D1C89733400B46A3F /* ViewController.h */,
 				00E90C1E1C89733400B46A3F /* ViewController.m */,
 				00E90C201C89733400B46A3F /* Main.storyboard */,
+				00E90C321C89899400B46A3F /* ca8dac08f8ef24da0537eb79a7ec72e2.jpg */,
 				00E90C231C89733400B46A3F /* Assets.xcassets */,
 				00E90C251C89733400B46A3F /* LaunchScreen.storyboard */,
 				00E90C281C89733400B46A3F /* Info.plist */,
@@ -139,6 +146,7 @@
 				00E90C271C89733400B46A3F /* LaunchScreen.storyboard in Resources */,
 				00E90C241C89733400B46A3F /* Assets.xcassets in Resources */,
 				00E90C221C89733400B46A3F /* Main.storyboard in Resources */,
+				00E90C331C89899400B46A3F /* ca8dac08f8ef24da0537eb79a7ec72e2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCPCoreMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ccp.CCPCoreMotion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCPCoreMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ccp.CCPCoreMotion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
